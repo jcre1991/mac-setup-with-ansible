@@ -30,7 +30,8 @@
 Install ZSH : sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 This step install xcode utils (git, etc)
 Change zsh theme to Maran
-* Homebrew : /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+* Homebrew 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 * Homebrew configurations : 
 ** brew doctor
 ** brew update
@@ -40,3 +41,19 @@ brew install python
 brew install ansible
 
 == Playbook
+
+.Installs
+* iTerm2
+* Visual Studio Code
+* AWS Cli
+* Telegram
+* Whatsapp
+* Slack
+* FireFox
+* Sublime Text
+* Docker
+
+== Execution 
+
+Clone the repo, cd into and run ./install.sh 
+The next step is to add a link to github static file, to run it directly from cURL
