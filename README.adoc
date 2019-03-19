@@ -7,6 +7,12 @@
 
 == Fresh Install
 
+.Step List
+* Restart MacBook holding Command+R
+* Using the Disk Utility (Document better this) erase the disk content and format using AFPS (Encrypted)
+* Return to Main Menu and Select Install MacOS
+* (Document better this) Step by Step installation
+
 == Previous Steps to Playbook
 
 == Playbook
