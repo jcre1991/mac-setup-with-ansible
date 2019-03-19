@@ -1,0 +1,2 @@
+# Ansible : https://github.com/github/gitignore/blob/master/Global/Ansible.gitignore
+*.retry
