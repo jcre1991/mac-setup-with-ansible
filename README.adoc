@@ -1,0 +1,12 @@
+= README for mac-setup-with-ansible
+:hardbreaks:
+:toc:
+:toc-title: Content
+
+== Introduction
+
+== Fresh Install
+
+== Previous Steps to Playbook
+
+== Playbook
