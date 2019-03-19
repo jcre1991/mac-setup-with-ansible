@@ -7,6 +7,53 @@
 
 == Fresh Install
 
+.Step List
+* Restart MacBook holding Command+R
+* Using the Disk Utility (Document better this) erase the disk content and format using AFPS (Encrypted)
+* Return to Main Menu and Select Install MacOS
+* (Document better this) Step by Step installation
+
 == Previous Steps to Playbook
 
+.Step List
+* First MacOS Boot
+(Check if it's always, 1.1) Calendar Accept Location
+(Dont did it this time) Setup Accounts
+(ToDo?) Open Notes and (all the apps first time setup)
+* Problems with Location and DateTime
+(ToDo?) Restart
+(Check if it's always, 1.2) Deactivate Location for date time
+(Check if it's always, 1,2) Change to Montevideo
+(Check if it's always, 1.2) Enable Location for date time
+(Check if it's always, 1.2) Activate location services for weather in security 
+* ZSH
+Install ZSH : sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+This step install xcode utils (git, etc)
+Change zsh theme to Maran
+* Homebrew 
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+* Homebrew configurations : 
+** brew doctor
+** brew update
+* Python
+brew install python
+* Ansible
+brew install ansible
+
 == Playbook
+
+.Installs
+* iTerm2
+* Visual Studio Code
+* AWS Cli
+* Telegram
+* Whatsapp
+* Slack
+* FireFox
+* Sublime Text
+* Docker
+
+== Execution 
+
+Clone the repo, cd into and run ./install.sh 
+The next step is to add a link to github static file, to run it directly from cURL
